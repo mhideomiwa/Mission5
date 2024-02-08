@@ -1,0 +1,31 @@
+﻿@{
+    ViewData["Title"] = "Estimate";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div class="container">
+    <div>
+        <p>
+            This simple calculator gives an estimate for what IO would charge to teach a Pizza Making class.  The price is $15 per hour.  Enter the number of hours you would like to book, and the calculator will give you an estimate.
+        </p>
+    </div>
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-6">
+            <div class="form-group">
+                <label for="hours">Hours</label>
+                <input type="number" class="form-control" id="hours" placeholder="Enter hours" />
+                <br />
+                <label for="price">Price per hour</label>
+                <span>$15</span>
+                <br />
+                <button id="calculate" class="btn btn-primary calculate-btn">Calculate</button>
+                <br />
+                <label>Total</label>
+                <span id="total"></span>
+            </div>
+        </div>
+    </div>
+</div>

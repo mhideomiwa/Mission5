@@ -1,0 +1,70 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.title-img {
+  width: 100%;
+  height: 30%;
+  object-fit: cover;
+  object-position: 0 35%;
+}
+
+.title-container{
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.title-img-container {
+  height: 350px;
+  overflow: hidden;
+}
+
+.title-text-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+}
+
+.background-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.content-container {
+  padding: 20px;
+}
+
+.content {
+  font-size: 1.2em;
+}
+
+.calculate-btn {
+  margin-top: 20px;
+}
